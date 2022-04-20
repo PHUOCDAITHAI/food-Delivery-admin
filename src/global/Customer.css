@@ -1,0 +1,71 @@
+/* Customer */
+.table-wrapper {
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  table{
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    /* background-color: gray; */
+    background-color: #fafafb;
+    color: #455560;
+  }
+  
+  td, th {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+  td {
+    color: #606060;
+    font-weight: 500;
+  }
+
+  .tr-hover:hover td{
+      background-color: #349eff;
+      color: white;
+  }
+  
+  .page-pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+
+  .page-pagination-number {
+      margin: 5px;
+      height: 30px;
+      width: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      cursor: pointer;
+  }
+
+  .active {
+      background-color: red;
+      color: white;
+  }
+
+
+  .edit:hover{
+    color: yellow;
+    cursor: pointer;
+  }
+
+  .delete:hover {
+      color: pink;
+      cursor: pointer;
+  }
+  
+  /* End Customer */
